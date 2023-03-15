@@ -1,0 +1,11 @@
+.app_container {
+    display: flex;
+    height: 90vh;
+}
+
+.app_main {
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+            width: 0;
+        }
+}
